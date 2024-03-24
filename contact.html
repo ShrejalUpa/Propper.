@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="container">
+    <h2>Contact.</h2>
+    <div class="row">
+        <div class="map">
+            <h4>Map</h4>
+
+            <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:300px;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=Mumbai,+Maharashtra,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="my-codefor-googlemap" href="https://www.bootstrapskins.com/themes" id="make-map-data">premium bootstrap themes</a><style>#embedded-map-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+
+        </div>
+        <div class="contact-form">
+            <h4>Contact form</h4>
+            <form id="form-contact" method="post" class="clearfix inputs-underline">
+
+                <div class="userinput">
+                    <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="userinput">
+                    <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="userinput">
+                    <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Your Message" required></textarea>
+                </div>
+
+                <div class="form-group clearfix">
+                    <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Send a Message</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="Address">
+            <h4>Address</h4>
+            <address> Your Company<br>
+                4877 Spruce Drive<br>
+                West Newton, PA 15089<br>
+                <br>
+                +1 (734) 123-4567<br>
+                <a href="#">hello@example.com</a>
+            </address>
+        </div>
+        <div class="social">
+            <h4>Social</h4>
+            <div></div>
+            <a href="www.facebook.com" class="roll-effect"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAxhJREFUWEfdl1mojkEYx38nSrJE1pISkojCBVEoLuxEKdlSkiuSXFguSELZyoVE9iXZt2S5sd2IUOLChSWREIUIxfxP89V7XjPvzLznU1+mTqfvnWf+85tnZp7nmTpqtNXVKBf/JVgLYCrQH2hv/5oBH4D3wEvgOPC8zK6U8dhIYDEwJXLCB8ABYGukfb1ZClgvYDMwIWWCjO0zYDlwLGZ8LNhMYB/QNEY0YHMKkN73IrsQmPo3AsuqAJSVuAeMB976dENgO4EFVYaqyD0FBpvz+tGlXwS2BNhSAkq38WhmqzoDvc0N7WtvblbyBjAiBWwocDsRSkArgUOecSeAaY4+LX5p/rvPYzoDAxPA3liPOLfF6py0cS8v+9OEk+7Aq2yHC2wycCYBSqazgMOBMT4wDTsIzAmBXQVGJ4B9MfGtlce+A9DHxss1wPAC3bbAp0p/3mNtfLekQPA6oGyQb/vzXggstoHX82AKfL7D69M9D0zKdQ4yGeJugtdlqrw63ecx3RCFiZR2DtC5zDYFzwspIsALk126+cCOADMSBQUwMTdGvwWc0n4DTQD9/yuJXwNGpahZz1QDTNN2rYSN/Bm7BQwLgF0B1mdsVHs9yo1pB/TLfTtrMknrgLayw2OXx05H1Fm6HLMTvdrSRPfPEWM6Au9cYDFJuwxYTIorPGPKWZsCK1M1Ojdi9VmTecCewJgnNhjXm+XPmOr3h//gjM23xWGR9LZsqHLlShVv2uvYVq1wMQa47Itj+r4OWBFLVaVwoZKpB/CrCEz58rUpqZtHwlXDY6qSd2Xn89Vjaw39qkgwV67US0rfY5pKbL3AGjQfmF5Dd4ABEcqN8dgPW/fr7RkFJqOeJjnfN+FDwbGouZJ4rMcWAdtd4qFXkl4xyp9FcGU9tsE+gJ2LDoFp0BDj7kuALoWrlfGYqtnVRdsQA6bxnYC9wFiHWIrHVHMpz94Mnd1YsIqOypuF5mKMywjHeEzpZgewG/gWglJ/KlhFs4utQvRo+WpfSdn5VMEqSKtEuliizC4NFrPoRtmU9VijJo0ZXLNgfwDXXIwnYJIAnwAAAABJRU5ErkJggg==" width="20px"/>
+
+                Facebook</a>
+
+                <a href="www.twitter.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAqpJREFUWEftl0uojVEUx3+XQohwiwFJMhAiuQY3IY+QiJgQSQbomtw7kaG6RURSlJKUV1FEZICJiUQhJW+FUBIG5Bn7X/ur07H3t/e699w66azJdzrfevz3Wmuv9f+aqFNpqlNcNIBZK9PIWD1lrA8wGZgO/ALuAHeBHzkgY6WcBNzPcRDQkc+NwE5gcNX7z8AW4Lj/vzewGvgNnKzUDQFrBl4BbcARIzj5uwLMTdidBZTRGT6DY4CvKWArgTPAH2AdcMwArgPYY9B/DywEngPDgGeFbShj7cDeCuf7gG3At4yA74DhGXqFyjlX8n4+e4tdnO9lwJYC56ucP3KnWQvcKgk6FnhqAFWo3gQWAR9TpVSPKcUhueBLdT3wUmU/agR20V2yFaGbGruVj4FxJUHuAfuBG64PX/gyW/tL7nVDD4TixIAtAC4Bus45ot764i6KymmRNS4BJ3KBTfOlbAFOQ48u+nnAtVxgG4DDwBtgQGBIWjKS0p0APMgFNid2ilQU43uVXptBU/8fCfWY5soTl7WRxkBWdd3IJTGjWPOvqt5d1qgZ+tEbKdsyPrbcL9v+GUGsKj+B0W7Zv7VmrNBXDywDOmtc2kPAprLTlGVsiDPWfBILqKWIm2nevewqMNkdBDbXEpXnaSIFpZLi/IMcZ7rqtoCGbS1EJKDVM9puAZPxQH9KZa5XN9CJvU4EXuf4SGWs0oeWuvj7VkDU2yICpfVzO9fIAmwWINI4Jde51/sAzIytnq6OC9mNdztztyOJYphWeQhoHuppkuqMqUTrgdmegw/1PWZyCmiAbgd2+d9W++jkn+8HoE5rKbcWs6jSDr9vzYAKg1TQUYBATnVfTqIoWuwjXOC+gBr6k3+K658CLud+0KYQp4Cl7HvsfQOYNbWNjP03GfsLcURpJ/GjurYAAAAASUVORK5CYII=" width="20px"/>Twitter</a>
+                <a href="www.instagram.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAA2dJREFUWEftmFmoTVEYx3/XPBWSDGVKhqQQGTJneOPBk/FSypAxQyQSEcqUqZSEZCxEHozJFKHMQ8lQypAhZSiZ1v/2ndu+29577eOce7sP96vbPvfsb/3Xf33zOgWUUykop7yoIJatZ7K1WBWgFdAUsrL2V+AR8CUtwbTEhgNTgYFA9bTgEXoPgCPAauBbEo6PWD1gCzAmBzJRS58B44CrcbhJxOoCd4HmeSaVgfsDjAQOReEnEdtjpyolXkWwH4B29iyxTxyxocCpPDN6BdQHaodwDwCjwnvFEdtvZs4Xt43AXBf0NYCz7tC9AsC/gAbA5+BmccTeAQ2zYKV4eQF8AjoC1UJr+wBX7LsFlpVBFWX9CR+xWoDqThrR6ZcBt4DvtqCSxc1sYJJ9l7GYsI9b2QniT3eG2OojpgKqdPbJYmClR2mEy+qdgDI8LsYEsQJY4iPWCbjt2XAhsMZ0ZAWlfQ9An1VE5RY9JX2Bix68tc5L833EugPXE4AuBFwxxKX6DOfKYSH958B6K856tQGQa+NEukqOYokK/t7A5QSQQcB5Z7GagFJdgRslH11IFAIngcbA61yJ9QdklShRf1O8/ATGA7s8LgrWqCdA2xh9WXSOz2JK7UsxAJoQOti7zYCyyScZr+wAJsYobwOm+Yh1A27EANwBOtu7pI2i9liUkMXbgSm5EHsfKLwy/TqPuYKJsi+q9dj6nC0mnDbAU3uqWLZPIDfTtRu5XPLYCm+U+ibXNWblYjGtXQosN5DJ9n+TiN00x6kryMoqK6cTDpCqXCTFmLCVmUqAl7bRYGfBsfZX2RXUc8BRKyUaa+oAD4FmCcRWAYrBYomqY2rC9zyxo9Qf4AL2jUevqpWU0R69oBeKVKOIaZzWlOATTRPzXJYec31Oo0tYWgMHXXvq6gNydfGfvhs39mi6UN9LI6roh+0wspDirZHrDv3MjWkwJrjb126fK/X+jGtLip2yki7hwSHOYpqjVPTKQt5aLy2xVxwxZZcmjDTxkSt5XeP2hkGSbknKTs1lIllaotISGTK+C69GIJ2mZZ6Z/bZZTbUrcoz3ERMfzV0aoRV34avX//DV7Vvt52bS4jTEMutVCnpab4z6UaWFXcPuuyr+I7Rp5keVa9aivAfKhpgXLJ8KFcSytWa5tdhfxPOTJ+ZqcM4AAAAASUVORK5CYII=" width="20px"/>Instagram</a>
+                <a href="www.skype.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAA4pJREFUWEftl1moTlEUx3/XPD8ZEkIZIhIP5lkZIpkiQ7wg8eKBJElJMj0qDyhSpkKEMo+ZSaJkzpS8kHnm/G/r0/m+u/c5+9yh7sNd9fXV2Wuv/T//tfZ/rVNEJbWiSoqLKmBZM5OFsWpAC/u9A54CP7IeGOofAqwNsBSYBjSIBf4DHAW2Au/t+QfgXuT/PRSAzy8N2GhgF9Aww0EC/Ai4C1wFNgJfMuwvdk0C1h84ByiFZbHXxvgO4G9oIB+wRsB9oHlooAC/m8Bc4FaAr5exxcC6kAAZfZTSYcCVtH0uxpS6J0DrtM2Aiv0yIDZ+Wml0BsYAdTz7PwMD05hzAetoaUzC9RWYD6hufjscGwMTgFVAE8f6c6BD0u11ARsKnEphawhwNoBRsS5JEYuFtjK6DCuyyEUf4FLCoTuB6bH1HsBUoDugNK0HLsbWe3lq6iPQFPjmOsvFWH3gUwKwcRGIg7YufXvl0LllwGrzqWeAXSEnAftCgcnvWMTacA+43iacWlaLeunx2w6ctFpUFlx2wGqxxJpPx0ZZbbiCqRuobnI2E5gHCHBaJymM98anlb5APWOsFAZTb5ztQKw+KhnoZ/+KUSvggtQEfhX6lYYxxZBInk45VLW6xNpRjQTfVq5y8AGbYRrliyftWgtsi27owxSAs8zP59bFJpK8dR8w3TwVZoi9BQ4BR4DjnkniMKDadFkmxtpH89eDEFQFPmpLEuflUVu6EVtbYOOPK6Qkp4Q8+RirbtpT2xFpbzQYLgQGAZIEV4FLQsREzsbGtK8wpCaOzaHFL7/9wHgHMLGpQVA2GdjtkIlnEei2sb2Sk02eDNyJyqZbFmCDI1bOOIL1tYkitzQC2BL9WtqDx9airsf2Smh1k30mqVE7+29pgnjb8TaqIY018R6nUamTfZyIzfikqqJX8SeZBlKJbTAwjdfnHak6YSKr8SXJpphU+GYz7dVLSPM0SgUDk6NEco3jdGnZHku30pdjSWLaFZhoXSAFO8qKJpM8S0tlzlnThG5WRZjG+A2lBaZ+pistFS9Pk6xoks1Low4IZSwHZlH0OafJs245oFPq1fTjQ2WmGivEoBukmlNhuwQ4BLM6xBwTaKd/VsbiQTSZjgQ0OkvDmkUfHyr8FyYbGrddzF6IWpCYv5b0BmUBlsaMRHMA0M4+5SQt+thNm0aK41YksDTgietVwLLSV2kZ+wedA5onobtaRAAAAABJRU5ErkJggg==" width="20px"/>Skype</a>
+            
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="container">
+    <hr>
+</div>
+</body>
+</html>

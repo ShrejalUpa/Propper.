@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h2,
+h4 {
+    margin-top: 40px;
+}
+
+.row {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map,
+.contact-form,
+.Address,
+.social {
+    margin: 10px;
+    flex: 1 1 50%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.userinput {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #978c8c;
+}
+
+
+
+
+.Address,
+a {
+    text-decoration: none;
+    color: #4c5054;
+    font-size: 12px;
+}
+
+.social a {
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    color: #090909;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.social a:hover {
+    transform: translateY(-3px);
+}
+
+
+.btn-primary {
+    background-color: #090909;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3a3939;
+}
+
+[data-scroll-reveal] {
+    visibility: visible;
+}
+
+.scroll-reveal {
+    visibility: visible;
+    animation: scroll-reveal 0.8s forwards;
+}
+
+@keyframes scroll-reveal {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .map,
+    .contact-form,
+    .Address,
+    .social {
+        flex: 1 1 100%;
+    }
+}

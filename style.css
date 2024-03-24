@@ -1,0 +1,295 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-top: 30px;
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+  
+  .details {
+    margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    
+  }
+  span{
+    display: flex;
+    border-bottom: 2px solid #272222;
+  }
+  
+  .label {
+    font-weight: lighter;
+    font-size: 12px;
+    border-bottom: #c31616;
+  }
+  
+  .values p{ 
+    font-size: 12px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .pricing-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .pricing-box {
+    width: 100%;
+    gap: 10px;
+    border: 15px solid #ccc;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .pricing-box h3 {
+    margin-top: 0;
+  }
+  
+  .price.old {
+    margin-top: 20px;
+    color: #999;
+    font-size: 0.8em;
+    text-decoration: line-through;
+  }
+  
+  
+  .btn {
+    background-color: rgb(255, 252, 252);
+    color: rgb(6, 6, 6);
+    border: 2px solid gray;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn.contact {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .btn.contact:active {
+    transform: scale(1.1); /* Scale the button to 110% when clicked */
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+
+.faq {
+    font-weight: bold;
+}
+
+.box {
+    background-color: rgb(221, 219, 219); /* Gray background color */
+    padding: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 20px;
+    position: relative;
+}
+
+.plus-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.additional-info {
+    background-color: rgb(208, 206, 206);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #888585;
+    display: none; /* Initially hidden */
+}
+
+.discription{
+    background-color: #292424;
+    color: white;
+    displap:none;
+}
+
+
+
+.box1 {
+  width: 90%;
+  font-size: 12px;
+  /* max-width: 400px; */
+  background-image: url('house.jpg');
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.dot {
+  font-size: 10px;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.paragraph {
+  margin-top: 5px;
+}
+
+.hidden {
+  display:none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-boxes {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .label {
+    margin-top: px;
+    width: 100%; 
+    border-bottom: 1px solid #e6e2e2; 
+    padding: 5px 0; 
+    
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+  .pricing-box {
+    border-color: #f5f3f3;
+  }
+  
+  .pricing-box:nth-child(2) {
+    border-color: #ccc9c9;
+    gap:10px;
+  }
+  
+  .pricing-box:nth-child(3) {
+    border-color: #f5f3f3;
+  }
+};
+
+
+
+.box {
+  border: 1px solid lightgray;
+  padding: 20px;
+  position: relative;
+  }
+.newsletter-box {
+  max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+  
+  border: 10px solid rgb(221, 219, 219);
+  
+}
+.text{
+  font-size: 12px;
+}
+
+
+input {
+  width: 80%;
+  padding: 5px;
+  margin-top: 5px;
+  
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.red-circle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  left:90%;
+  bottom:0%;
+
+}
+
+.gray-line {
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+}
+
+p {
+  margin: 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
